@@ -2,7 +2,7 @@ import Icons from "./Icons";
 
 export default function Sidebar() {
   return (
-    <div className="fixed h-[750px] top-0 left-0 flex flex-col justify-between items-center bg-back-front font-semibold ">
+    <aside className="h-[750px] top-0 left-0 flex flex-col justify-between items-center bg-back-front font-semibold">
       <div>
         <img className="md:m-8 md:my-12 logo" src="/assets/logo.png" alt="logo" />
         <ul className="text-faint flex flex-col navbar gap-y-4 text-2xl">
@@ -56,6 +56,6 @@ export default function Sidebar() {
       <span className="text-extraFaint text-xl font-semibold mb-2 md:inline hidden">
         Lorem ipsum dolor
       </span>
-    </div>
+    </aside>
   );
 }
