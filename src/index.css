@@ -39,14 +39,36 @@ html {
   @apply bg-back;
 }
 
-.active {
+.bg-image {
+  @apply bg-center bg-no-repeat bg-cover;
+}
+
+.active a {
   @apply !text-laci;
 }
 
 .active span {
-  @apply bg-laci;
+  @apply !bg-laci;
+  box-shadow: 4px 0px 16px rgba(65, 98, 190, 0.6) !important;
 }
 
-.active svg {
+.active svg path {
   @apply !fill-laci;
+}
+
+.logo {
+  width: clamp(4rem, 10vw, 6rem);
+  @apply md:m-12 my-8 mx-2
+}
+
+.navbar li {
+  @apply relative flex items-center;
+}
+
+.navbar li div {
+  @apply flex w-full items-center justify-center py-3 md:justify-start md:pl-12 md:pr-16 md:gap-x-8
+}
+
+.navbar li span {
+  @apply absolute left-0 top-0 h-full w-2 bg-transparent rounded-r-lg shadow-none;
 }
