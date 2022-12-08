@@ -58,7 +58,7 @@ html {
 
 .logo {
   width: clamp(4rem, 10vw, 6rem);
-  @apply md:m-12 my-8 mx-2
+  @apply lg:m-12 my-8 mx-2
 }
 
 .navbar li {
@@ -66,7 +66,7 @@ html {
 }
 
 .navbar li div {
-  @apply flex w-full items-center justify-center py-3 md:justify-start md:pl-12 md:pr-16 md:gap-x-8
+  @apply flex w-full items-center justify-center py-3 lg:justify-start lg:pl-12 lg:pr-16 lg:gap-x-8
 }
 
 .navbar li span {
