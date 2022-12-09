@@ -20,7 +20,7 @@ export default function WalletCurrencyUnits({
 
   function DataPrinter(data) {
     return (
-      <div className="flex gap-x-8">
+      <div className="flex flex-wrap gap-8">
         {toCurrencies.map((currencyUnit, index) => (
           <BaseCurrencyUnit
             currency={{

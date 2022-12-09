@@ -1,4 +1,6 @@
 import Icons from "./Icons";
+import { numberWithCommas } from "../services/commaOfMoney";
+
 export default function BaseCurrencyUnit({ currency }) {
   return (
     <div className="flex items-center gap-x-4">
@@ -7,7 +9,7 @@ export default function BaseCurrencyUnit({ currency }) {
       </span>
       <div>
         <h5 className="font-semibold text-xs text-gray">{currency.unit}</h5>
-        <span className="font-semibold text-2xl text-gray">{currency.value}</span>
+        <span className="font-semibold text-2xl text-gray">{numberWithCommas(currency.value)}</span>
       </div>
     </div>
   );
