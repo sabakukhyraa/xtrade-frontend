@@ -4,7 +4,7 @@ import WalletCurrencyUnits from "./WalletCurrencyUnits";
 export default function WalletStatus() {
 
   const [fromCurrency, setFromCurrency] = useState("EUR");
-  const [toCurrencies, setToCurrencies] = useState(["TRY", "USD"]);
+  const [toCurrencies, setToCurrencies] = useState(["USD", "TRY"]);
   const [fromValue, setFromValue] = useState(12);
   
 

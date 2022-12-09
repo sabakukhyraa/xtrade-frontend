@@ -1,4 +1,4 @@
-import "./index.css";
+import "./css/index.css";
 import "./components/Sidebar";
 import Sidebar from "./components/Sidebar";
 import ProfileSection from "./components/ProfileSection";

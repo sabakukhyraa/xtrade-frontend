@@ -34,11 +34,6 @@ module.exports = {
           DEFAULT: "#3D9D7B",
           "dark": "#183C2F"
         },
-        units: {
-          DEFAULT: "#ffffff",
-          "usd": "#685845",
-          "try": "#3D4F4A"
-        }
       },
     },
   },
