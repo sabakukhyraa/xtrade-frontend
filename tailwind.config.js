@@ -18,6 +18,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Gilroy", "sans-serif"],
+        inter : ["Inter", "sans-serif"],
       },
       colors: {
         darkgray: "#707070",
@@ -28,6 +29,15 @@ module.exports = {
         back: {
           DEFAULT: "#181A20",
           "front": "#23242E"
+        },
+        gain: {
+          DEFAULT: "#3D9D7B",
+          "dark": "#183C2F"
+        },
+        units: {
+          DEFAULT: "#ffffff",
+          "usd": "#685845",
+          "try": "#3D4F4A"
         }
       },
     },
