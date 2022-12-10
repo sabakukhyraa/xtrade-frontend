@@ -9,6 +9,7 @@ module.exports = {
         lg: "992px",
         xl: "1080px",
         "2xl": "1294px",
+        "3xl": "1422px",
       },
       container: {
         center: true,
@@ -34,6 +35,9 @@ module.exports = {
           DEFAULT: "#3D9D7B",
           "dark": "#183C2F"
         },
+        notr: {
+          DEFAULT: "#808080"
+        }
       },
     },
   },
