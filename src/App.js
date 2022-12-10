@@ -2,7 +2,8 @@ import "./css/index.css";
 import "./components/Sidebar";
 import Sidebar from "./components/Sidebar";
 import ProfileSection from "./components/ProfileSection";
-import WalletStatus from "./components/WalletStatus";
+import DashboardPage from "./pages/DashboardPage";
+
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Sidebar />
       <div className="flex items-center flex-col container lg:px-12">
         <ProfileSection />
-        <WalletStatus />
+        <DashboardPage />
       </div>
     </div>
   );

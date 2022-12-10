@@ -14,19 +14,19 @@ export default function WalletStatus() {
       [
         {
           title: "BTC",
-          value: 2000,
+          value: 20000,
           color: "#F7931A",
           iconUrl: BitcoinIcon,
         },
         {
           title: "USDT",
-          value: 3000,
+          value: 30000,
           color: "#50AF95",
           iconUrl: TetherIcon,
         },
         {
           title: "ETH",
-          value: 4000,
+          value: 40000,
           color: "#627EEA",
           iconUrl: EtheriumIcon,
         },
@@ -45,7 +45,7 @@ export default function WalletStatus() {
       <h1 className="text-white text-[24px] lg:text-[40px] font-bold">
         Z - Wallet
       </h1>
-      <div className="flex flex-col lg:flex-row w-full bg-back-front rounded-[20px] p-3 2xl:p-10 lg:p-6 gap-8">
+      <div className="flex flex-col lg:flex-row w-full bg-back-front rounded-[20px] 2xl:p-10 p-6 gap-8">
         <div className="w-full lg:w-[44.9%] space-y-8">
           <div className="flex flex-col items-center lg:items-start gap-y-3">
             <h3 className="font-semibold text-2xl text-darkgray">Total Balance</h3>
