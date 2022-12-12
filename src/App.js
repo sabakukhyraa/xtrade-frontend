@@ -2,8 +2,7 @@ import "./css/index.css";
 import "./components/Sidebar";
 import Sidebar from "./components/Sidebar";
 import ProfileSection from "./components/ProfileSection";
-import DashboardPage from "./pages/DashboardPage";
-
+import DashboardPage from "./views/Dashboard";
 
 function App() {
   return (

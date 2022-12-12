@@ -24,13 +24,15 @@ module.exports = {
       },
       colors: {
         darkgray: "#707070",
+        semigray: "#A0A0A0",
         gray: "#C6C6C6",
         laci: "#4162BE",
         faint: "#919CB7",
         extraFaint: "#5C6069",
         back: {
           DEFAULT: "#181A20",
-          "front": "#23242E"
+          "front": "#23242E",
+          "extra-front": "#414453"
         },
         gain: {
           DEFAULT: "#3D9D7B",
