@@ -2,7 +2,7 @@ import Icons from "./Icons";
 
 export default function Sidebar() {
   return (
-    <aside className="h-[1000px] top-0 left-0 flex flex-col justify-between items-center bg-back-front font-semibold">
+    <aside className="fixed h-[1000px] top-0 left-0 flex flex-col justify-between items-center bg-back-front font-semibold">
       <div>
         <img className="p-2 !mx-0 lg:!m-8 lg:!my-12 logo" src="/assets/logo.png" alt="logo" />
         <ul className="text-faint flex flex-col navbar gap-y-4 text-2xl">
