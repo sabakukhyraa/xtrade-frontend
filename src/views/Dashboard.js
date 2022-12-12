@@ -145,8 +145,8 @@ export default function DashboardPage() {
     },
   ]
 
-  const catalogOfCoins = <BaseCatalog items={catalogItems} title={"Catalog of Coins"} description={"Lorem ipsum dolor"}/>
-  const catalogOfCoins2 = <BaseCatalog items={catalogItems2} title={"Catalog of Coins"} description={"Lorem ipsum dolor"}/>
+  const catalogOfCoins = <BaseCatalog items={catalogItems} title={"Coins"} description={"Lorem ipsum dolor"}/>
+  const catalogOfCoins2 = <BaseCatalog items={catalogItems2} title={"NFT's"} description={"Lorem ipsum dolor"}/>
 
   return (
     <div className="flex flex-col gap-12 w-full mb-12">

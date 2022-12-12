@@ -39,8 +39,8 @@ export default function BaseCatalog({ items, title, description }) {
   ));
 
   return (
-    <div className="w-full">
-    <h1 className="text-gray font-bold text-[40px]">{title}</h1>
+    <div className="w-full text-start">
+    <h1 className="text-gray font-bold mb-10 text-[40px]">{title}</h1>
     <div className="w-full bg-back-front p-12 rounded-[20px]">
       <div className="flex justify-between w-full mb-10">
         <div className="flex flex-col items-start gap-2">
