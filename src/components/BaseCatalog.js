@@ -31,7 +31,7 @@ export default function BaseCatalog({ items, title, description }) {
         <h1 className="text-[20px] text-darkgray font-medium">Market Places</h1>
         <span className="flex pt-2 gap-x-3">{marketPlacesRenderer(item.marketPlaces)}</span>
       </div>
-      <a className="text-[20] text-laci font-semibold" href="/">See Details</a>
+      <a className="text-[20px] text-laci font-semibold" href="/">See Details</a>
       <button type="">
         <Icons iconName={"Dots"}/>
       </button>

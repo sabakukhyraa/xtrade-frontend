@@ -81,3 +81,18 @@ html {
 .search-bar:focus .placeholder{
   display: none;
 }
+
+@media screen and (max-width: 820px) {
+  .logo {
+    display: none !important;
+  }
+  .navbar {
+    @apply pt-12
+  }
+  .navbar li {
+    @apply !px-2
+  }
+  .navbar li span {
+    @apply !w-1
+  }
+}
