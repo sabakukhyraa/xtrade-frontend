@@ -21,7 +21,7 @@ export default function Sidebar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/">
+            <NavLink to="/wallet">
               <span></span>
               <div>
                 <Icons iconName="Wallet" />
@@ -30,7 +30,7 @@ export default function Sidebar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/">
+            <NavLink to="/cards">
               <span></span>
               <div>
                 <Icons iconName="Cards" />
@@ -39,7 +39,7 @@ export default function Sidebar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/">
+            <NavLink to="/settings">
               <span></span>
               <div>
                 <Icons iconName="Settings" />
@@ -48,7 +48,7 @@ export default function Sidebar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/">
+            <NavLink to="/faq">
               <span></span>
               <div>
                 <Icons iconName="FAQ" />
