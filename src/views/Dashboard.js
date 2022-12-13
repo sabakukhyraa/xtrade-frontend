@@ -149,7 +149,7 @@ export default function DashboardPage() {
   const catalogOfCoins2 = <BaseCatalog items={catalogItems2} title={"NFT's"} description={"Lorem ipsum dolor"}/>
 
   return (
-    <div className="flex flex-col gap-12 w-full mb-12">
+    <div className="flex flex-col gap-12 w-full mb-12 dashboard">
       <WalletStatus />
       <InfoSection />
       <BaseSlider components={[catalogOfCoins, catalogOfCoins2]} />

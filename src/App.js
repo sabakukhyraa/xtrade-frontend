@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="">
       <Sidebar />
-      <div className="flex items-center flex-col w-full pl-14 px-3 md:pl-[120px] md:px-6 lg:pl-[348px] lg:px-12">
+      <div className="flex items-center flex-col w-full !pl-14 md:!pl-[120px] lg:!pl-[348px]">
         <ProfileSection />
         <DashboardPage />
       </div>

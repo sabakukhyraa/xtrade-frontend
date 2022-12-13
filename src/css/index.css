@@ -96,3 +96,7 @@ html {
     @apply !w-1
   }
 }
+
+.dashboard > div {
+  @apply !pr-3 md:!pr-6 lg:!pr-12
+}
