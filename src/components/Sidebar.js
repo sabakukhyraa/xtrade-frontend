@@ -1,55 +1,60 @@
 import Icons from "./Icons";
+import { NavLink } from "react-router-dom";
 
 export default function Sidebar() {
   return (
     <aside className="fixed h-[1000px] top-0 left-0 flex flex-col justify-between items-center bg-back-front font-semibold">
       <div>
-        <img className="p-2 !mx-0 lg:!m-8 lg:!my-12 logo" src="/assets/logo.png" alt="logo" />
+        <img
+          className="p-2 !mx-0 lg:!m-8 lg:!my-12 logo"
+          src="/assets/logo.png"
+          alt="logo"
+        />
         <ul className="text-faint flex flex-col navbar gap-y-4 text-2xl">
-          <li className="active">
-            <span></span>
-            <div>
-              <Icons iconName="Dashboard" />
-              <a className="lg:inline-block hidden" href="/">
-                Dashboard
-              </a>
-            </div>
+          <li>
+            <NavLink to="/dashboard">
+              <span></span>
+              <div>
+                <Icons iconName="Dashboard" />
+                <p className="lg:inline-block hidden">Dashboard</p>
+              </div>
+            </NavLink>
           </li>
           <li>
-            <span></span>
-            <div>
-              <Icons iconName="Wallet" />
-              <a className="lg:inline-block hidden" href="/">
-                Wallet
-              </a>
-            </div>
+            <NavLink to="/">
+              <span></span>
+              <div>
+                <Icons iconName="Wallet" />
+                <p className="lg:inline-block hidden">Wallet</p>
+              </div>
+            </NavLink>
           </li>
           <li>
-            <span></span>
-            <div>
-              <Icons iconName="Cards" />
-              <a className="lg:inline-block hidden" href="/">
-                Cards
-              </a>
-            </div>
+            <NavLink to="/">
+              <span></span>
+              <div>
+                <Icons iconName="Cards" />
+                <p className="lg:inline-block hidden">Cards</p>
+              </div>
+            </NavLink>
           </li>
           <li>
-            <span></span>
-            <div>
-              <Icons iconName="Settings" />
-              <a className="lg:inline-block hidden" href="/">
-                Settings
-              </a>
-            </div>
+            <NavLink to="/">
+              <span></span>
+              <div>
+                <Icons iconName="Settings" />
+                <p className="lg:inline-block hidden">Settings</p>
+              </div>
+            </NavLink>
           </li>
           <li>
-            <span></span>
-            <div>
-              <Icons iconName="FAQ" />
-              <a className="lg:inline-block hidden" href="/">
-                FAQ
-              </a>
-            </div>
+            <NavLink to="/">
+              <span></span>
+              <div>
+                <Icons iconName="FAQ" />
+                <p className="lg:inline-block hidden">FAQ</p>
+              </div>
+            </NavLink>
           </li>
         </ul>
       </div>

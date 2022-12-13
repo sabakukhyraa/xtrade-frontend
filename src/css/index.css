@@ -44,7 +44,7 @@ html {
   @apply bg-center bg-no-repeat bg-cover;
 }
 
-.active a {
+.active {
   @apply !text-laci;
 }
 
@@ -62,12 +62,12 @@ html {
   @apply lg:m-12 my-8 mx-2
 }
 
-.navbar li {
-  @apply relative flex items-center;
+.navbar li a {
+  @apply relative flex w-full py-3 lg:pl-12 lg:pr-16
 }
 
-.navbar li div {
-  @apply flex w-full items-center justify-center py-3 lg:justify-start lg:pl-12 lg:pr-16 lg:gap-x-8
+.navbar li a div {
+  @apply flex justify-center lg:justify-start items-center w-full lg:gap-x-8
 }
 
 .navbar li span {
@@ -93,7 +93,7 @@ html {
     @apply !px-2
   }
   .navbar li span {
-    @apply !w-1
+    @apply !w-1 !-left-2
   }
 }
 
