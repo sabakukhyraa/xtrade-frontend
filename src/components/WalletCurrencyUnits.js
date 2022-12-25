@@ -8,7 +8,7 @@ export default function WalletCurrencyUnits({
   fromValue,
 }) {
   const BASE_URL =
-    "https://api.freecurrencyapi.com/v1/latest?apikey=baELxjtiYZ5BkEYodjtfKDp4Xhzhy0BkBPbUAY7U";
+    "https://api.freecurrencyapi.com/v1/latest?apikey=1ns771E6ppySmcpwHyv32ODlvdBs9Ww0TKqj0Wjm";
 
   const [API_DATA, setAPI_DATA] = useState();
 
